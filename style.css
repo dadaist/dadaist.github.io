@@ -1,6 +1,45 @@
+
+/*module breakpoints*/
+
+/*small*/
+
+@media only screen and (min-width: 1px) {
 .slide-container {
-    width: 700px;
+    width: 450px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.image-container {
+    width: 768px;
     height: 600px;
+    position: relative; 
+    
+}
+    
+/*mid*/
+
+@media only screen and (min-width: 768px) {
+.slide-container {
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.image-container {
+    width: 1200px;
+    height: 600px;
+    position: relative;  
+}
+    
+/*large*/
+    
+    @media only screen and (min-width: 1200px) {
+.slide-container {
+    width: 800px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -8,11 +47,6 @@
 .image-container {
     width: 1440px;
     height: 600px;
-    position: relative;
-    
-}
-.slider-image {
-    float: left;
-    margin: 0px;
-    padding: 0px;
+    position: relative;  
+ }
 }
